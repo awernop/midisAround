@@ -1,0 +1,22 @@
+.main{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 151px auto;
+
+    h2{
+        font-weight: 600;
+        font-size: 45px;
+        color: #303030;
+        margin-bottom: 41px;
+    }
+
+    p{
+        font-weight: 500;
+        font-size: 16px;
+        color: #303030;
+        max-width: 530px;
+        margin-bottom: 121px;
+    }
+}

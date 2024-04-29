@@ -1,0 +1,32 @@
+.main{
+    width: 100%;
+    background-image: url('../../img/background.png');
+    margin-top: 190px;
+    margin-bottom: 190px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 44px;
+    height: 494px;
+
+    h2{
+        font-weight: 600;
+        font-size: 45px;
+        color: #fff;
+    }
+
+    p{
+        font-weight: 500;
+        font-size: 16px;
+        text-align: center;
+        color: #fff;
+        margin-top: 17px;
+    }
+}
+
+.btns{
+    display: flex;
+    gap: 33px;
+    margin-top: 54px;
+}

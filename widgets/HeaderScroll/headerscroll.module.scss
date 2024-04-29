@@ -1,0 +1,44 @@
+.main{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 8;
+    width: 100%;
+    border-bottom: 2px solid #000;
+    background: #fff;
+    height: 84px;
+    // display: flex;
+    align-items: center;
+    justify-content: center;
+
+    ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 65px;
+
+        li{
+            font-weight: 500;
+        }
+
+        a{
+            position: relative;
+            padding: 12px 20px;
+            
+            &::after{
+                transition: transform .2s ease;
+                position: absolute;
+                bottom: 5px;
+                left: 50%;
+                transform: translateX(-50%) scale(0);
+                content: '';
+                width: 70%;
+                height: 2px;
+                background-color: #fc4c00;
+            }
+            &:hover::after {
+                transform: translateX(-50%) scale(1);
+            }
+        }
+    }
+}

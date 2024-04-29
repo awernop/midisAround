@@ -1,0 +1,137 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 190px;
+
+    h2{
+        font-weight: 600;
+        font-size: 45px;
+        color: #303030;
+    }
+}
+
+.sort{
+
+    form{
+        display: flex;
+    align-items: center;
+    gap: 23px;
+    margin: 47px 0;
+    }
+}
+
+.btn{
+  position: absolute;
+  z-index: 2;
+  opacity: 0;
+
+    &__div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #1e1e1e;
+        border-radius: 28px;
+        padding: 13px 32px;
+        font-weight: 500;
+        font-size: 16px;
+        color: #1e1e1e;
+        cursor: pointer;
+
+        &:hover{
+            background: #cecece;
+        }
+    
+        &:focus,
+        &:active,
+        &:checked{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid #1e1e1e;
+            border-radius: 28px;
+            background: #1e1e1e;
+            font-weight: 600;
+            font-size: 16px;
+            color: #fff;
+            padding: 13px 32px;
+        }
+    }
+
+    
+}
+
+.top{
+    display: flex;
+    align-items: flex-start;
+    gap: 22px;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    max-width: 530px;
+
+    p{
+        font-weight: 500;
+        font-size: 16px;
+        color: #303030;
+    }
+}
+
+.bottom{
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    margin-top: 28px;
+}
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    transition: 0.3s ease-in-out;
+
+    &__img{
+        border-radius: 44px;
+        width: 284px;
+        height: 284px;
+        object-fit: fill;
+    }
+
+}
+
+.hit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 37px;
+    padding: 4px 10px;
+    width: 64px;
+    height: 32px;
+    background: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    color: #fc4c00;
+    position: relative;
+    top: 21px;
+    left: 21px;
+}
+
+.title{
+    font-weight: 600;
+    font-size: 30px;
+    color: #303030;
+    margin-top: 18px;
+    padding-left: 27px;
+}
+
+.price{
+    font-weight: 500;
+    font-size: 20px;
+    color: #303030;
+    padding-left: 27px;
+}
